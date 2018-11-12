@@ -63,8 +63,9 @@ try:
 	save  	= input('Enter Name For Save !:')
 	print('\n')
 	if lists != "" and save != "":
-		make_wordlist(lists,repeat,save,time)
 		print('Please Wait...')
+		make_wordlist(lists,repeat,save,time)
+		
 		time.sleep(4)
 		print(bcolors.OKGREEN,bcolors.BOLD,'File Save On wordlist/%s.txt'%(save),bcolors.ENDC)
 	else:
