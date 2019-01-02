@@ -58,7 +58,7 @@ try:
 	
 	lists	= input('Enter a Value Or Characters For Make Wordlist :')
 	print('\n')
-	repeat 	= int(input('Enter To Length The Password  wordlist [exmple:4,8,16]:'))
+	repeat 	= int(input('Enter To Length The Password  Word [exmple:4,8,16]:'))
 	print('\n')
 	save  	= input('Enter Name For Save !:')
 	print('\n')
